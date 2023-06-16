@@ -4,17 +4,11 @@
  * 
  * @package ct_sebastian
  */
-
+get_header();
  ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wordpress custom theme</title>
-</head>
-<body>
-    
-</body>
-</html>
+
+    <div class="content">this is the content</div>
+
+<?php 
+get_footer();
