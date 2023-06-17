@@ -20,6 +20,12 @@
 
 <!-- use wp_body_open to add script in the start of body  -->
 
-    <?php wp_body_open(); ?>
+    <?php
+
+    if(function_exists( 'wp_body_open()' ) ){
+        wp_body_open();
+    };
+
+    ?>
 
     <header>header</header>
