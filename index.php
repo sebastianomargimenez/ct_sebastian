@@ -4,11 +4,14 @@
  * 
  * @package ct_sebastian
  */
+
 get_header();
+
  ?>
 
 
     <div class="content">this is the content</div>
 
-<?php 
+<?php
+
 get_footer();

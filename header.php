@@ -5,6 +5,7 @@
  * @package ct_sebastian
  */
 ?>
+
 <!DOCTYPE html>
 <html lang="<?php language_attributes(); ?>">
 <head>
