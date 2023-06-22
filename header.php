@@ -28,4 +28,10 @@
 
     ?>
 
-    <header>header</header>
+    <div class="page" class="site">
+        
+        <header id="musthead" class="site-header" role="banner">
+            <?php get_template_part( 'template-parts/header/nav' ); ?>
+        </header>
+
+        <div class="content" class="site-content">
